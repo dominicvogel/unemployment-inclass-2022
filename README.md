@@ -1,19 +1,17 @@
 # unemployment-inclass-2022
-In class unemployment report 10/24/22
 
 
 ## Setup
-
 Create and activate a virtual environment:
 
-```sh 
-conda create -n unemployment-env
-python=3.8
+```sh
+conda create -n unemployment-env python=3.8
 
 conda activate unemployment-env
 ```
 
 Install package dependencies:
+
 ```sh
 pip install -r requirements.txt
 ```
@@ -31,6 +29,7 @@ Then create a local ".env" file and provide the key like this:
 ALPHAVANTAGE_API_KEY="_________"
 ```
 
+
 ## Usage
 
 Run an example script:
@@ -40,18 +39,20 @@ python app/my_script.py
 ```
 
 Run the unemployment report:
+
 ```sh
-python app/unemployment.py
+#python app/unemployment.py
+
+# or pass env var from command line:
+#ALPHAVANTAGE_API_KEY="______" python app/unemployment.py
+
+python -m app.unemployment
 ```
 
-Run the stocks report:
+Run stocks report:
+
 ```sh
-python app/stocks.py
+#python app/stocks.py
+
+python -m app.stocks
 ```
-
-
-or pass it from the command line:
-```sh
-ALPHAVANTAGE_API_KEY="___" python app/unemployment.py
-```
-
