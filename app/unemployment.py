@@ -16,7 +16,3 @@ parsed_response = json.loads(response.text)
 print(type(parsed_response))
 pprint(parsed_response)
 
-breakpoint()
-
-latest= parsed_response["data"][0]
-print(latest)

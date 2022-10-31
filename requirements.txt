@@ -5,3 +5,8 @@ plotly
 pandas
 
 requests
+
+json
+
+pprint
+
