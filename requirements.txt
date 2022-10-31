@@ -6,7 +6,4 @@ pandas
 
 requests
 
-json
-
-pprint
 
