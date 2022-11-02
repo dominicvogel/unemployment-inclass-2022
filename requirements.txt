@@ -6,4 +6,5 @@ pandas
 
 requests
 
-
+# using this to find and run our tests:
+pytest
