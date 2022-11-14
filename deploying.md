@@ -56,7 +56,7 @@ heroku config:set ALPHAVANTAGE_API_KEY="______"
 heroku config:set DEFAULT_SYMBOL="GOOGL"
 
 heroku config:set SENDGRID_API_KEY="_________"
-heroku config:set SENDER_EMAIL_ADDRESS="someone@gmail.com"
+heroku config:set SENDER_EMAIL_ADDRESS="davogel2001@gmail.com"
 ```
 
 At this point, you should be able to verify the production environment has been configured with the proper environment variable values:
