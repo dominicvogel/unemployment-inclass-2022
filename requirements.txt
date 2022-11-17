@@ -8,5 +8,13 @@ requests
 
 sendgrid==6.6.0
 
+flask
+
 # using this to find and run our tests:
 pytest
+
+#the heroku server wants to use this package to run our web app
+gunicorn
+
+# using bsoup in testing the web app:
+beautifulsoup4 # <-- ADDITION
