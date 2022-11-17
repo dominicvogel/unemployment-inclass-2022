@@ -103,3 +103,7 @@ Run tests:
 ```sh
 pytest
 ```
+
+## Heroku Commands
+git push heroku main
+heroku open
