@@ -19,7 +19,7 @@ from web_app.routes.unemployment_routes import unemployment_routes
 def create_app():
     app = Flask(__name__)
     #app.config["SECRET_KEY"] = SECRET_KEY
-    #app.config["TEMPLATES_AUTO_RELOAD"] = True
+    app.config["TEMPLATES_AUTO_RELOAD"] = True
 
     app.register_blueprint(home_routes)
     app.register_blueprint(stocks_routes)
